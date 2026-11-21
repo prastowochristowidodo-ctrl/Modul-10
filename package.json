@@ -1,0 +1,14 @@
+{
+  "name": "praktikum-web-mysql",
+  "version": "1.0.0",
+  "description": "Praktikum integrasi Node.js dan MySQL - E-Library",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "node migrate.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0"
+  }
+}
